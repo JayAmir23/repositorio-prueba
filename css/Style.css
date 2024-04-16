@@ -1,0 +1,442 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/**------------HEADER------------**/
+
+header {
+    height: 84px;
+    background-color: #1797C9;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+header a img {
+    width: 280px;
+    height: 48px;
+    padding-left: 40px;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+}
+
+header nav ul li {
+    margin: 24px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 16px;
+    font-weight: 500;
+    font-style: normal;
+    font-variation-settings:
+        "slnt" 0;
+    padding: 2px;
+    display: flex;
+    justify-content: center;
+}
+
+header nav div h1 {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 48px;
+    font-weight: 700;
+    font-style: normal;
+    font-variation-settings: "slnt" 0;
+    color: #ffffff;
+    padding: 120px 480px 32px 160px;
+
+}
+
+header nav div p {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 14px;
+    font-weight: 600;
+    font-style: normal;
+    font-variation-settings: "slnt" 0;
+    color: #ffffff;
+
+}
+
+.mainboton {
+    background-color: #E75F80;
+    border-radius: 8px;
+    text-decoration: none;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 16px;
+    font-weight: 500;
+    font-style: normal;
+    font-variation-settings:
+        "slnt" 0;
+    color: #ffffff;
+    margin: 32px 1200px 24px 160px;
+    padding: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/**------------MAIN INDEX------------*/
+
+.hero {
+    background-image: url(../img/imagen\ principal\ degradado.jpg);
+    width: 100%;
+    height: 1138px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 0px;
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+}
+
+.hero h1 {
+
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 64px;
+    font-weight: 700;
+    font-style: normal;
+    font-variation-settings:
+        "slnt" 0;
+    color: #ffffff;
+    padding: 240px 0px 24px 160px;
+
+}
+
+.hero p {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 16px;
+    font-weight: 600;
+    font-style: normal;
+    font-variation-settings:
+        "slnt" 0;
+    color: #ffffff;
+    padding: 0px 0px 0px 160px;
+
+}
+
+.hero img {
+    width: 100%;
+    padding: 160px 80px 40px 80px;
+}
+
+.infancias {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.infancias div {
+    width: 50%;
+}
+
+.infancias div h2 {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 40px;
+    font-weight: 700;
+    font-style: normal;
+    font-variation-settings:
+        "slnt" 0;
+    color: #E75F80;
+    padding-bottom: 24px;
+
+}
+
+.infancias div p {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 16px;
+    font-weight: 500;
+    font-style: normal;
+    font-variation-settings:
+        "slnt" 0;
+    color: #1E1E1E;
+    padding-bottom: 24px;
+}
+
+.boton {
+    text-decoration: underline;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 14px;
+    font-weight: 500;
+    font-style: normal;
+    font-variation-settings:
+        "slnt" 0;
+    color: #E75F80;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+
+}
+
+.elles {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.elles {
+    background-image: url(../img/seccionelles.png);
+    width: 100%;
+    height: 560px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 0px;
+}
+
+.elles div h2 {
+    text-decoration: none;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 40px;
+    font-weight: 700;
+    font-style: normal;
+    font-variation-settings:
+        "slnt" 0;
+    color: #ffffff;
+}
+
+.botonelles {
+    text-decoration: underline;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 14px;
+    font-weight: 500;
+    font-style: normal;
+    font-variation-settings:
+        "slnt" 0;
+    color: #ffffff
+}
+
+.grid-container {
+    /*habilitamos la grilla*/
+    display: grid;
+    /*habilitamos filas*/
+    grid-auto-rows: 250px;
+    /*habilitamos columnas*/
+    grid-template-columns: 40% 20% 20% 20%;
+}
+
+.grid-item {
+    border: solid 2px #ffffff;
+    background-color: #ffffff;
+    padding: 16px;
+    text-align: center;
+}
+
+.primer-item {
+    grid-column: 1/4;
+}
+
+.segundo-item {
+    grid-row: 2/5;
+    background-image: url(..//img/trans\ boy.png);
+    background-repeat: no-repeat;
+}
+
+.tercer-item {
+    grid-column: 2/5;
+}
+
+.tercer-item h2 {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 40px;
+    font-weight: 700;
+    font-style: normal;
+    font-variation-settings:
+        "slnt" 0;
+    color: #E75F80;
+    margin: 24px 0px 0px -48px;
+    text-align: left;
+}
+
+.tercer-item h3 {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 16px;
+    font-weight: 500;
+    font-style: normal;
+    font-variation-settings:
+        "slnt" 0;
+    color: #1E1E1E;
+    margin: 24px 0px 0px -48px;
+    text-align: left;
+}
+
+.tercer-item a {
+    margin: 24px 0px 0px -48px;
+}
+
+.cuarto-item {
+    grid-row: 3/5;
+}
+
+.cuarto-item h3 {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 16px;
+    font-weight: 800;
+    font-style: normal;
+    font-variation-settings:
+        "slnt" 0;
+    color: #1E1E1E;
+    margin: 48px 24px 12px -48px;
+    text-align: left;
+}
+
+.cuarto-item ul {
+    list-style: none;
+    text-decoration: underline;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 14px;
+    font-weight: 600;
+    font-style: normal;
+    font-variation-settings:
+        "slnt" 0;
+    color: #1E1E1E;
+    margin: 32px 24px 12px -48px;
+    text-align: left;
+}
+
+.cuarto-item ul li {
+    padding: 4px;
+}
+
+.quinto-item {
+    grid-row: 3/5;
+}
+
+.quinto-item h3 {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 16px;
+    font-weight: 800;
+    font-style: normal;
+    font-variation-settings:
+        "slnt" 0;
+    color: #1E1E1E;
+    margin: 48px 24px 12px -48px;
+    text-align: left;
+}
+
+.quinto-item ul {
+    list-style: none;
+    text-decoration: underline;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 14px;
+    font-weight: 600;
+    font-style: normal;
+    font-variation-settings:
+        "slnt" 0;
+    color: #1E1E1E;
+    margin: 32px 24px 12px -48px;
+    text-align: left;
+}
+
+.quinto-item ul li {
+    padding: 4px;
+}
+
+.sexto-item {
+    grid-row: 3/5;
+}
+
+.sexto-item h3 {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 16px;
+    font-weight: 800;
+    font-style: normal;
+    font-variation-settings:
+        "slnt" 0;
+    color: #1E1E1E;
+    margin: 48px 24px 12px -96px;
+    text-align: left;
+}
+
+.sexto-item ul {
+    list-style: none;
+    text-decoration: underline;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 14px;
+    font-weight: 600;
+    font-style: normal;
+    font-variation-settings:
+        "slnt" 0;
+    color: #1E1E1E;
+    margin: 32px 24px 12px -96px;
+    text-align: left;
+}
+
+.sexto-item ul li {
+    padding: 4px;
+}
+}
+
+/**------------MAIN SERVICIOS------------*/
+
+.tratamiento {
+    background-color: #1797C9;
+}
+
+/**------------FOOTER------------*/
+
+.flex-container-pie {
+    display: grid;
+    background-color: #1797C9;
+    width: 100%;
+    height: 320px;
+}
+
+}
+
+.flex-container-pie img {
+    width: 306px;
+    height: 68px;
+}
+
+.info {
+    display:flex;
+    justify-content:right;
+    align-content:end;
+    flex-direction: column;
+
+}
+
+.info h3 {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 24px;
+    font-weight: 600;
+    font-style: normal;
+    font-variation-settings:
+        "slnt" 0;
+    color: #1E1E1E;
+    text-align: left;
+}
